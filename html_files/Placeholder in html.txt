@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registration Form</h2>
+<p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+<form action="/action_page.php">
+  <input type="text" placeholder="Enter your Name" required>
+  <input type="email" placeholder="Enter your Email" required>
+  <input type="password"placeholder="Enter your pasword">
+  <input type="number" placeholder="Enter your age"><br>
+  <label>Gender:</label><br>
+  <input type="radio" name="gender"> Male
+  <input type="radio" name="gender"> Female<br>
+  <label>Skills:</label><br>
+  <input type="checkbox"> HTML
+  <input type="checkbox"> CSS
+  <input type="checkbox"> JavaScript<br>
+  <label>Country:</label><br>
+<select>
+  <option value="" disabled selected>Select your        country</option>
+  <option>Pakistan</option>
+  <option>India</option>
+  <option>Turkey</option>
+  <option>UAE</option>
+  <option>Saudi Arabia</option>
+</select>
+
+<br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+<p>Please fill out the registration form carefully.    Enter your name, email,
+password, age, gender, and select the skills you have. Make sure that all
+the information you provide is correct before clicking the Submit button.
+</p>
+
+</body>
+</html>
+
