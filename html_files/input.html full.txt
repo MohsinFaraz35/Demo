@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Student Registration Form</h2>
+
+<form action="/action_page.php">
+
+  <!-- Name -->
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"
+         placeholder="Enter your first name"
+         maxlength="20" required>
+  <br><br>
+
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"
+         placeholder="Enter your last name"
+         maxlength="20" required>
+  <br><br>
+
+  <!-- Email -->
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"
+         placeholder="Enter your email" required>
+  <br><br>
+
+  <!-- Password -->
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"
+         placeholder="Enter your password" required>
+  <br><br>
+
+  <!-- Age -->
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age"
+         min="15" max="30" required>
+  <br><br>
+
+  <!-- Date of Birth -->
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob" required>
+  <br><br>
+
+  <!-- Gender -->
+  <label>Gender:</label><br>
+
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+
+  <br><br>
+
+  <!-- Hobbies -->
+  <label>Hobbies:</label><br>
+
+  <input type="checkbox" id="coding" name="hobby" value="coding">
+  <label for="coding">Coding</label>
+
+  <input type="checkbox" id="reading" name="hobby" value="reading">
+  <label for="reading">Reading</label>
+
+  <input type="checkbox" id="sports" name="hobby" value="sports">
+  <label for="sports">Sports</label>
+
+  <input type="checkbox" id="gaming" name="hobby" value="gaming">
+  <label for="gaming">Gaming</label>
+
+  <br><br>
+
+  <!-- City Dropdown -->
+  <label for="city">City:</label><br>
+  <select id="city" name="city">
+    <option value="multan">Multan</option>
+    <option value="lahore">Lahore</option>
+    <option value="islamabad">Islamabad</option>
+    <option value="karachi">Karachi</option>
+  </select>
+
+  <br><br>
+
+  <!-- Address -->
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address"
+            rows="4" cols="40"
+            placeholder="Enter your address"></textarea>
+
+  <br><br>
+
+  <!-- About Yourself -->
+  <label for="about">About Yourself:</label><br>
+  <textarea id="about" name="about"
+            rows="5" cols="40"
+            placeholder="Write something about yourself"></textarea>
+
+  <br><br>
+
+  <!-- Favorite Browser -->
+  <label for="browser">Favorite Browser:</label><br>
+
+  <input list="browsers" id="browser" name="browser"
+         placeholder="Choose or type a browser">
+
+  <datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Edge">
+    <option value="Safari">
+  </datalist>
+
+  <br><br>
+
+  <!-- Submit -->
+<input type="submit" value="Open in New Tab"
+       formtarget="_blank"><br><br>
+       <input type="submit" value="Submit"
+       formtarget="_blank"><br><br>
+       <input type="submit" value="Submit Without Validation"
+       formnovalidate><br><br>
+
+</form>
+
+<!-- Final Paragraph -->
+<p>
+  Thank you for completing the Student Registration Form.
+  Please make sure that all the information you have provided
+  is correct and complete before submitting the form. Your
+  information will help us understand your details and provide
+  you with better support and opportunities for learning.
+</p>
+
+</body>
+</html>
