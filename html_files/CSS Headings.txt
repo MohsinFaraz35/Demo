@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First CSS</title>
+</head>
+<body>
+ <h1 style="color: blue;">Welcome to My Website</h1>
+<h1 style="color: green; font-size: 35px; background-color: lightgray; text-align: center;">
+    Welcome to My Website
+</h1>
+<h1 style="color: green; font-size: 35px; background-color: lightgray; text-align: center; border: 3px solid black;">
+    Welcome to My Website
+</h1>
+     
+<h1 style="color: green; font-size: 35px; background-color: lightgray; text-align: center; border: 3px solid black; padding: 20px;">
+    Welcome to My Website
+</h1>
+<h1 style="color: green; font-size: 35px; background-color: lightgray; text-align: center; border: 3px solid black; padding: 20px; margin: 30px;">
+    Welcome to My Website
+</h1>
+    <p style="color: blue;">My name is Mohsin.</p>
+
+    <p style="font-size: 25px;">I am learning CSS.</p>
+
+</body>
+</html>
+
+
