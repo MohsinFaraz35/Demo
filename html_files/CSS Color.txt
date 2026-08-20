@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+ <style>
+ h1 {
+  color:black;
+  background-color: pink;
+  border: 3px solid red;
+}
+
+p {
+  color: black;
+  background-color: lightyellow;
+  border: 2px solid green;
+}
+</style>
+ <body>
+
+<h1>My Website</h1>
+<h2>Web Development</h2>
+<p>I am learning CSS.</p>
+
+</body>
+<h1>Vegetables (سبزیوں)</h1>
+<h1>🥔 Potato — آلو</h1>
+<h1>🍅 Tomato — ٹماٹر</h1>
+<h1>🧅 Onion — پیاز</h1>
+<h1>🥕 Carrot — گاجر</h1>
+<h1>🥦 Broccoli — بروکلی</h1>
+<h1>🥬 Spinach — پالک</h1>
+<h1>🌶️ Chilli — مرچ</h1>
+<h1>🫑 Capsicum — شملہ مرچ</h1>
+<h1>🥒 Cucumber — کھیرا</h1>
+<h1>🍆 Eggplant / Brinjal — بینگن</h1>
+<h1>🫛 Peas — مٹر</h1>
+<h1>🌽 Corn — مکئی</h1>
+<h1>🥔 Sweet Potato — شکر قندی</h1>
+<h1>🥗 Cabbage — بند گوبھی</h1>
+<h1>🥦 Cauliflower — پھول گوبھی</h1>
+<h1>🥒 Bitter Gourd — کریلا</h1>
+<h1>🎃 Pumpkin — کدو</h1>
+<h1>🫘 Lady Finger / Okra — بھنڈی</h1>
+<h1>🥕 Radish — مولی</h1>
+<h1>🌱 Turnip — شلجم</h1>
+
+
+</body>
+</html>
